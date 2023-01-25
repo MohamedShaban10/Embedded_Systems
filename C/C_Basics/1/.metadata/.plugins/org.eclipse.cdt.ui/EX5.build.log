@@ -1,0 +1,7 @@
+02:03:00 **** Rebuild of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+
+02:03:01 Build Finished. 0 errors, 0 warnings. (took 1s.205ms)
+

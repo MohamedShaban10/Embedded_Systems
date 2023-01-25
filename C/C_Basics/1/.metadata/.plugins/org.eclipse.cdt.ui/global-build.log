@@ -1,0 +1,31 @@
+02:02:46 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+..\ex6.c: In function 'main':
+..\ex6.c:12:9: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+   12 |         for(int i=0;i<5;i++);
+      |         ^~~
+..\ex6.c:12:9: note: use option '-std=c99', '-std=gnu99', '-std=c11' or '-std=gnu11' to compile your code
+Info: Nothing to build for EX1
+Info: Nothing to build for EX2
+02:02:58 **** Rebuild of configuration Debug for project EX3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex3.o "..\\ex3.c" 
+gcc -o EX3.exe ex3.o 
+02:02:59 **** Rebuild of configuration Debug for project EX4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex4.o "..\\ex4.c" 
+gcc -o EX4.exe ex4.o 
+02:03:00 **** Rebuild of configuration Debug for project EX5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex5.o "..\\ex5.c" 
+gcc -o EX5.exe ex5.o 
+02:03:01 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o ex6.o "..\\ex6.c" 
+gcc -ansi -std=c89 -o EX6.exe ex6.o 
+02:03:03 **** Rebuild of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex7.o "..\\ex7.c" 
+gcc -o EX7.exe ex7.o 
+Info: Nothing to build for EX6
